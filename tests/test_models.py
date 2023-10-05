@@ -30,3 +30,17 @@ def test_daily_mean_integers():
 
     npt.assert_array_equal(daily_mean(test_input), test_result)
 
+def test_daily_mean_integers():
+    # test test inflamation
+
+    test_input = np.array()
+
+def test_daily_mean_zeros():
+    import pytest
+    @pytest.mark.parametrize(
+     "test, expected",
+    [
+        ([ [0, 0], [0, 0], [0, 0] ], [0, 0]),
+        ([ [1, 2], [3, 4], [5, 6] ], [3, 4]),
+    ])
+
