@@ -27,5 +27,6 @@ def test_daily_mean_integers():
     test_result = np.array([3, 4])
 
     # Need to use Numpy testing functions to compare arrays
+
     npt.assert_array_equal(daily_mean(test_input), test_result)
 
